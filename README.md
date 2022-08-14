@@ -1,2 +1,2 @@
 # DigitalCard
-Proyecto empresarial de la empresa
+Proyecto empresarial de la escuela
