@@ -1,0 +1,158 @@
+ .u-section-1 {
+  background-image: url("images/Sinttulo-7.png");
+  background-position: 0% 50.37%;
+  background-size: 145%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 880px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 6rem;
+  margin: 77px 467px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 15px 782px 0 226px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 181px;
+  background-image: none;
+  margin: 16px 624px 0 101px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-section-1 .u-form-2 {
+  background-image: none;
+  height: 47px;
+  margin: 0 624px 60px 101px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 32.36% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 854px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 40px;
+    margin-right: 267px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 48px;
+    margin-right: 682px;
+    margin-left: 126px;
+  }
+
+  .u-section-1 .u-form-1 {
+    height: 327px;
+    margin-top: 33px;
+    margin-right: 524px;
+    margin-left: 1px;
+  }
+
+  .u-section-1 .u-form-2 {
+    margin-right: 525px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    background-position: 47.84% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 767px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+    margin-right: 47px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 572px;
+    margin-left: 16px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-top: 36px;
+    margin-right: 305px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-form-2 {
+    margin-right: 305px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    background-position: 44.65% 50%;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+    margin-top: 70px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 408px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-top: 22px;
+    margin-right: 125px;
+  }
+
+  .u-section-1 .u-form-2 {
+    margin-right: 125px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    background-position: 43.84% 50%;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 59px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 208px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-top: 24px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-form-2 {
+    margin-right: 0;
+  }
+}

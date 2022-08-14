@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro para login con PHP | parzibyte.me</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style type="text/css">
+
+        .gallery-container {
+            background: url("");
+            background-size: cover;
+            color: #35373a;
+            min-height: 50vh;
+            border-radius: 20px;
+            box-shadow: 0 8px 5px rgba(0, 0, 0, 0.06);
+        }
+              .container{
+                background: url("gris.jpg");
+         width: 50%;
+        }
+        input[type="button"] {
+          padding: 10px;
+          color: #fff;
+          background: #0098cb;
+          width: 320px;
+          margin: 20px auto;
+          margin-top: 0;
+          border: 0;
+          border-radius: 3px;
+          cursor: pointer;
+        }
+        input[type="button"]:hover {
+          background-color: #00b8eb;
+        }
+        input[type="email"]{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+}
+body{
+  background-size: cover;
+}
+        </style>    
+        <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body background="fondo.jpg" align="center">
+    <br>
+    <br>
+    <!-- Se va a procesar en registrar.php y se enviará por POST, no por GET-->
+    <div class="gallery-container" >
+        <h1 style="color:white ;">Creación de cuenta</h1>
+    <form action="registrar.php" method="post">
+        <!--
+            Nota: el atributo name es importante, pues lo vamos a recibir de esa manera
+            en PHP
+        -->
+        <input required name="correo" type="email" placeholder="Tu correo electrónico">
+        <br>
+        <input required name="palabra_secreta" type="password" placeholder="Contraseña">
+        <br>
+        <input required name="palabra_secreta_confirmar" type="password" placeholder="Confirma tu contraseña">
+        <br><br>
+        <!--Lo siguiente envía el formulario-->
+        <input type="submit" value="Registrarme">
+    </form>
+    <a href="login.html"><input type="button" value="Ya tengo una cuenta"> </a>
+    <br><a href="../../../index.html"><input type="button" value="Pagina principal"></a>
+    <br>
+    <br>
+    </div>
+</body>
+
+</html>
